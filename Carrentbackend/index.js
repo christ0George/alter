@@ -36,6 +36,7 @@ app.post('/newcar',(request,response)=>{
     response.send("Record Successfully Saved")
 
 })
+
 // app.post('/cnew',(request,response)=>{
 //     console.log(request.body)
 //     new subcatemodel(request.body).save();
